@@ -1,0 +1,17 @@
+/* heading */
+.heading {
+  text-align: center;
+}
+.heading p{
+  color: #00000099 ;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+}
+.heading h2{
+  color: #03346E;
+  font-size: 32px;
+  margin-top: -10px;
+  text-transform: capitalize;
+}
+/* ------heading-------- */

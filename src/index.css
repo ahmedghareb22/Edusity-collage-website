@@ -1,13 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box !important;
+  font-family: "Outfit", sans-serif;
+}
+body{
+  background: #f5f5f5;
+  scroll-behavior: smooth !important;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  line-height: 1;
+}
+/* container */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Small devices (phones) */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
 }
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* XXL (ultra large screens) */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+/* -------------container------------ */
+
+
+/* special classes */
+/* btn */
+.btn{
+  background-color: #fff;
+  color: #212121;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn img{
+  width: 20px;
+  margin-left: 10px;
+}
+.btn.dark-btn{
+  background-color: #03346E;
+  color: #fff;
+}
+/* ------btn------ */
+/* ----------special classes--------- */
+
+/* media queries */
+@media (max-width: 1200px) {
+  .btn{
+    padding: 14px 22px;
+  }
+}
+/* ---------media queries-------- */
